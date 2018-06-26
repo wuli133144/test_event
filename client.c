@@ -32,6 +32,9 @@ static const char MESSAGE[] = "Hello, World!\n";
 static const int PORT = 9995;
 
 
+
+#define  debug(x)   #x
+
 static void bufferevent_readcb(struct bufferevent *bev,void *ctx){
 
             printf("hello world");
